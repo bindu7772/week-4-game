@@ -57,3 +57,7 @@ h1 {
 input:focus {
     outline: none;
 }
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+outline:0px;
+}
