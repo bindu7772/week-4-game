@@ -100,7 +100,6 @@ $(document).ready(function () {
     });
 
     function startGame() {
-
         compChoice = 0;
         userScore = 0;
         compChoice = Math.floor(Math.random() * 121) + 19;
